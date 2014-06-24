@@ -1,0 +1,82 @@
+md5($pass.$salt)
+md5($salt.$pass)
+md5(unicode($pass).$salt)
+md5($salt.unicode($pass))
+HMAC-MD5 (key = $pass)
+HMAC-MD5 (key = $salt)
+SHA1
+sha1($pass.$salt)
+sha1($salt.$pass)
+sha1(unicode($pass).$salt)
+sha1($salt.unicode($pass))
+HMAC-SHA1 (key = $pass)
+HMAC-SHA1 (key = $salt)
+sha1(LinkedIn)
+MySQL323
+MySQL4.1/MySQL5
+phpass, MD5(Wordpress), MD5(phpBB3), MD5(Joomla)
+md5crypt, MD5(Unix), FreeBSD MD5, Cisco-IOS MD5
+MD4
+NTLM
+Domain Cached Credentials, mscash
+SHA256
+sha256($pass.$salt)
+sha256($salt.$pass)
+sha256(unicode($pass).$salt)
+sha256($salt.unicode($pass))
+HMAC-SHA256 (key = $pass)
+HMAC-SHA256 (key = $salt)
+descrypt, DES(Unix), Traditional DES
+md5apr1, MD5(APR), Apache MD5
+SHA512
+sha512($pass.$salt)
+sha512($salt.$pass)
+sha512(unicode($pass).$salt)
+sha512($salt.unicode($pass))
+HMAC-SHA512 (key = $pass)
+HMAC-SHA512 (key = $salt)
+sha512crypt, SHA512(Unix)
+Domain Cached Credentials2, mscash2
+Cisco-PIX MD5
+Cisco-ASA MD5
+WPA/WPA2
+Double MD5
+LM
+Oracle 7-10g, DES(Oracle)
+bcrypt, Blowfish(OpenBSD)
+md5(sha1($pass))
+Double SHA1
+sha1(md5($pass))
+MD5(Chap), iSCSI CHAP authentication
+SHA-3(Keccak)
+Half MD5
+Password Safe SHA-256
+IKE-PSK MD5
+IKE-PSK SHA1
+NetNTLMv1-VANILLA / NetNTLMv1+ESS
+NetNTLMv2
+Cisco-IOS SHA256
+Samsung Android Password/PIN
+RipeMD160
+Whirlpool
+TrueCrypt 5.0+ (see below)
+AIX {smd5}
+AIX {ssha256}
+AIX {ssha512}
+1Password, agilekeychain
+AIX {ssha1}
+Lastpass
+GOST R 34.11-94
+OSX v10.8 / v10.9
+GRUB 2
+IPMI2 RAKP HMAC-SHA1
+sha256crypt, SHA256(Unix)
+Kerberos 5 AS-REQ Pre-Auth etype 23
+SAP CODVN B (BCODE)
+SAP CODVN F/G (PASSCODE)
+Drupal7
+Sybase ASE
+Citrix Netscaler
+1Password, cloudkeychain
+DNSSEC (NSEC3)
+WBB3, Woltlab Burning Board 3
