@@ -1,3 +1,5 @@
+CREATE DATABASE cracking;
+use cracking;
 CREATE TABLE users (id   INT AUTO_INCREMENT, email VARCHAR(255) NOT NULL UNIQUE, hourLimit INT(3) DEFAULT 1, isSuperUser BIT DEFAULT 0,
 										hash CHAR(128)                              NOT NULL, salt CHAR(8) NOT NULL, emailConfirmed BIT DEFAULT 0, managerConfirmed BIT DEFAULT 0, PRIMARY KEY (id));
 
