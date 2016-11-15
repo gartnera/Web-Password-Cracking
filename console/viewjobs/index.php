@@ -1,4 +1,4 @@
-<?php require('access.php'); ?>
+<?php require('../../includes/access.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
