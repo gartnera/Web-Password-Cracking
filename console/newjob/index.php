@@ -1,5 +1,5 @@
-<?php require('access.php');
-	  require('newJob.php');
+<?php require('../../includes/access.php');
+	  require('../../includes/newJob.php');
 /*
 	  print_r($_POST);
 	  echo "<br />";
