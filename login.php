@@ -62,10 +62,13 @@
 			$row = $query->fetch();
 
 			$passwordHash = hash("sha512", $row['salt'] . $_POST['password']);
-
+			$emailConfirmed = boolval($row['emailConfirmed']);
+			$managerConfirmed = boolval($row['managerConfirmed']);
+			
 			if ($passwordHash == $row['hash']) {
-				if ($row['emailConfirmed'] == 1) {
-					if ($row['managerConfirmed'] == 1) {
+		
+				if ($emailConfirmed == 1) {
+					if ($managerConfirmed == 1) {
 						$_SESSION['loggedIn'] = true;
 						$_SESSION['uid'] = $row['id'];
 						$_SESSION['isSuperUser'] = boolval($row['isSuperUser']);
