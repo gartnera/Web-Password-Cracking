@@ -67,7 +67,7 @@
 		</tr>
 		</thead>
 		<tbody>
-		<?php require('getData.php'); ?>
+		<?php require('../../includes/getData.php'); ?>
 
 		</tbody>
 	</table>
